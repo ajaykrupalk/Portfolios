@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white">
+    <div class="pt-5 text-white">
         <div class="flex justify-center">
             <h3 class="text-lg font-bold">For more</h3>
         </div>
