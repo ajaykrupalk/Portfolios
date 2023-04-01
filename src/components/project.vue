@@ -48,8 +48,8 @@ export default {
         link: String,
         title: String,
         description: String,
-        imgposition: String,
         imgsrc: String,
+        imgposition: String,
         imgsize: String,
     }
 }
