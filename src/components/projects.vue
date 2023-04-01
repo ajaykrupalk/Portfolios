@@ -39,7 +39,7 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
-                imgsrc="./src/assets/ph-person.png"
+                imgsrc="./assets/ph-person.png"
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
@@ -55,7 +55,7 @@
                 description="Built using ReactJS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgsrc="./src/assets/comp-person.png"
+                imgsrc="./assets/comp-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View <br />Source<br />Code
@@ -70,7 +70,7 @@
                 description="Built using ReactJS and OMDb API"
                 imgsize="h-20 w-26"
                 imgposition="self-start"
-                imgsrc="./src/assets/laying-person.png"
+                imgsrc="./assets/laying-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View The App
@@ -85,7 +85,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgsrc="./src/assets/study-person.png"
+                imgsrc="./assets/study-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -99,7 +99,7 @@
                 description="Built using Python with Discord.py"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgsrc="./src/assets/jump-person.png"
+                imgsrc="./assets/jump-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -113,7 +113,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgsrc="./src/assets/casual-person.png"
+                imgsrc="./assets/casual-person.png"
                 >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
