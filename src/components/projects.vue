@@ -39,7 +39,7 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
-                imgName="ph-person"
+                imgName="ph-person.png"
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
@@ -55,7 +55,7 @@
                 description="Built using ReactJS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgName="comp-person"
+                imgName="comp-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View <br />Source<br />Code
@@ -70,7 +70,7 @@
                 description="Built using ReactJS and OMDb API"
                 imgsize="h-20 w-26"
                 imgposition="self-start"
-                imgName="laying-person"
+                imgName="laying-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View The App
@@ -85,7 +85,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgName="study-person"
+                imgName="study-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -99,7 +99,7 @@
                 description="Built using Python with Discord.py"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgName="jump-person"
+                imgName="jump-person.png"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -113,7 +113,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgName="casual-person"
+                imgName="casual-person.png"
                 >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
