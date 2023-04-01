@@ -39,7 +39,7 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
-                imgsrc="./assets/ph-person.png"
+                imgName="ph-person"
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
@@ -55,7 +55,7 @@
                 description="Built using ReactJS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgsrc="./assets/comp-person.png"
+                imgName="comp-person"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View <br />Source<br />Code
@@ -70,7 +70,7 @@
                 description="Built using ReactJS and OMDb API"
                 imgsize="h-20 w-26"
                 imgposition="self-start"
-                imgsrc="./assets/laying-person.png"
+                imgName="laying-person"
             >
                 <h2 class="text-lg font-bold md:text-xl">
                     View The App
@@ -85,7 +85,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-36 w-26"
                 imgposition="self-end"
-                imgsrc="./assets/study-person.png"
+                imgName="study-person"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -99,7 +99,7 @@
                 description="Built using Python with Discord.py"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgsrc="./assets/jump-person.png"
+                imgName="jump-person"
             >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
@@ -113,7 +113,7 @@
                 description="Built using VueJS, Laravel and TailwindCSS"
                 imgsize="h-28 w-26"
                 imgposition="self-center"
-                imgsrc="./assets/casual-person.png"
+                imgName="casual-person"
                 >
                 <h2 class="text-lg font-bold md:text-xl">View <br> Source<br>Code</h2>
             </Project>
