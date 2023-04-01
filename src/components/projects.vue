@@ -39,7 +39,11 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
+<<<<<<< HEAD
                 imgsrc="./assets/ph-person.png"
+=======
+                imgsrc="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png"
+>>>>>>> f438b40816f589e005facd472badcf3cc62e614e
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
