@@ -39,7 +39,7 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
-                imgsrc="./src/assets/ph-person.png"
+                imgsrc="../assets/ph-person.png"
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
