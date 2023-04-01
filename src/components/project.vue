@@ -25,7 +25,7 @@
     </div>
     <div :class="`${imgposition} p-3 absolute bottom-0`">
       <img
-        :src=imgsrc
+        src="./src/assets/study-person.png"
         alt=""
         :class="`${imgsize} group-hover:scale-125 group-hover:-translate-y-3 transition ease-in duration-300`"
       />
