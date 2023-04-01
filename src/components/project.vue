@@ -25,8 +25,8 @@
     </div>
     <div :class="`${imgposition} p-3 absolute bottom-0`">
       <img
-        :src="`/src/assets/${imgName}.png`"
-        alt=""
+        :src="require(`@/assets/${imageName}`)"
+        alt="Image"
         :class="`${imgsize} group-hover:scale-125 group-hover:-translate-y-3 transition ease-in duration-300`"
       />
     </div>
