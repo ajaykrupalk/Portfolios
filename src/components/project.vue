@@ -23,6 +23,7 @@
       <h2 class="text-lg font-bold md:text-xl">{{ title }}</h2>
       <p class="text-md">{{ description }}</p>
     </div>
+
     <!-- <div :class="`${imgposition} p-3 absolute bottom-0`">
       <img
         :src="`/src/assets/${imgName}`"
@@ -30,6 +31,7 @@
         :class="`${imgsize} group-hover:scale-125 group-hover:-translate-y-3 transition ease-in duration-300`"
       />
     </div> -->
+    
     <div class="group-hover:block hidden">
       <div class="flex flex-col">
         <div>
