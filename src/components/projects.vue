@@ -39,7 +39,7 @@
                 title="Markdown App"
                 description="Built using ReactJS and TailwindCSS"
                 imgposition="self-end"
-                imgName="ph-person.png"
+                imgName="https://ajaykrupal.netlify.app/assets/ph-person-6c9759fd.png"
                 imgsize="h-32 w-12"
             >
                 <h2 class="text-lg font-bold md:text-xl">
