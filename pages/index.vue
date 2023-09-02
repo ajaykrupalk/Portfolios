@@ -2,10 +2,10 @@
     <div class="flex flex-col gap-10 mx-auto p-10 md:w-[40em]">
         <Header></Header>
         <!-- Top 3 Projects -->
-        <!-- <Playground></Playground> -->
+        <Playground></Playground>
 
         <!-- Top 3 Blogs -->
-        <!-- <Blogs></Blogs> -->
+        <Blogs></Blogs>
     </div>
 </template>
 
