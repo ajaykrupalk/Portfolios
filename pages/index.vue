@@ -8,7 +8,3 @@
         <Blogs></Blogs>
     </div>
 </template>
-
-<script setup>
-
-</script>

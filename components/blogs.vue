@@ -16,9 +16,9 @@
             <p class="text-sm text-gray-300/75">aug 01, 2023</p>
         </div>
         <div>
-            <nuxtlink class="text-sm text-gray-300/75 underline underline-offset-4">
+            <NuxtLink to="/blog" class="text-sm text-gray-300/75 underline underline-offset-4">
                 view more &#8594;
-            </nuxtlink>
+            </NuxtLink>
         </div>
     </div>
 </template>
