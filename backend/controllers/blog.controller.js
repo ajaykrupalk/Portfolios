@@ -23,21 +23,20 @@ const db = getFirestore()
 const colRef = collection(db, 'blogs')
 
 const getABlog = async (req, res) => {
-    const docRef = doc(db, 'blogs', req.params.id)
-
-    const unsubscribe = onSnapshot(docRef, (doc) => {
-        if (!doc.data()) {
-            res.status(400).send({ error: 'Document not found' });
+    const checkForSlug = query(colRef, where('slug', '==', req.params.slug))
+    const unsubscribe = onSnapshot(checkForSlug, (querySnapshot) => {
+        if (querySnapshot.empty) {
+            res.status(404).json({ error: 'Document not found' });
             unsubscribe();
             return;
+        } else {
+            const doc = querySnapshot.docs[0];
+            res.status(200).json(doc.data());
+            unsubscribe();
         }
 
-        res.status(200).send({
-            "message": "success",
-            "data": doc.data()
-        });
-        unsubscribe();
-    })
+        unsubscribe(); 
+    });
 }
 
 const getAllBlogs = async (req, res) => {
@@ -45,8 +44,8 @@ const getAllBlogs = async (req, res) => {
 
     const unsubscribe = onSnapshot(q, (snapshot) => {
         let blogs = []
-        
-        if(snapshot.docs.length === 0){
+
+        if (snapshot.docs.length === 0) {
             res.status(400).send({ error: 'Documents not found' });
             unsubscribe();
             return;
@@ -56,30 +55,29 @@ const getAllBlogs = async (req, res) => {
             blogs.push({ ...doc.data(), id: doc.id })
         })
 
-        res.status(200).json({
-            "message": "success",
-            "data": blogs
-        })
+        res.status(200).json(blogs)
         unsubscribe();
     })
 }
 
 const createBlog = async (req, res) => {
 
-    const title = req.body.title
-    const slug = title.trim().replace(' ', '-').toLowerCase()
-    const content = req.body.content
+    const title = req.body.title.toLowerCase();
+    const slug = title.trim().replace(/ /g, '-').toLowerCase();
+    const description = req.body.description.toLowerCase();
+    const content = req.body.content.toLowerCase();
 
-    const checkDuplicate = query(colRef, where('slug','==',slug))
+    const checkDuplicate = query(colRef, where('slug', '==', slug))
     const existingDoc = await getDocs(checkDuplicate)
 
-    if(!existingDoc.empty) {
+    if (!existingDoc.empty) {
         return res.status(400).json({ "message": "Duplicates are not allowed" });
     }
 
     addDoc(colRef, {
         title: title,
         slug: slug,
+        description: description,
         content: content,
         createdAt: serverTimestamp()
     })
@@ -87,6 +85,7 @@ const createBlog = async (req, res) => {
             return res.status(200).json({
                 "message": "Success",
                 "title": title,
+                "description": description,
                 "slug": slug
             })
         })

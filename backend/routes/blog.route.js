@@ -5,7 +5,7 @@ const { createBlog, getABlog, getAllBlogs } = require('../controllers/blog.contr
 
 router.get('/blogs', getAllBlogs)
 
-router.get('/blog/:id', getABlog)
+router.get('/blog/:slug', getABlog)
 
 router.post('/blog',createBlog)
 

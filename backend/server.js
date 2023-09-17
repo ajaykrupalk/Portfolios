@@ -36,5 +36,3 @@ app.use("", blogRoutes);
 app.listen(process.env.BACKEND_PORT, () => {
     console.log("Listening to Backend Port")
 })
-
-module.exports = { db }
