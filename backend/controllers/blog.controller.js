@@ -81,7 +81,7 @@ const createBlog = async (req, res) => {
     const title = req.body.title.toLowerCase();
     const slug = title.trim().replace(/ /g, '-').toLowerCase();
     const description = req.body.description.toLowerCase();
-    const content = req.body.content.toLowerCase();
+    const content = req.body.content;
 
     const checkDuplicate = query(colRef, where('slug', '==', slug))
     const existingDoc = await getDocs(checkDuplicate)

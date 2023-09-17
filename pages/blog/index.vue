@@ -9,7 +9,7 @@
                     {{ blog.title }}
                 </h4>
             </NuxtLink>
-            <p class="font-normal">
+            <p class="font-normal text-gray-300/95">
                 {{ blog.description }}
             </p>
             <p class="text-sm text-gray-300/75">
