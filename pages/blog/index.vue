@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-6 mx-auto p-10 md:w-[40em]">
-        <NuxtLink to="/" class="text-sm text-gray-300/75 underline underline-offset-4 hover:text-white hover:decoration-white">&#8592; back</NuxtLink>
+        <NuxtLink to="/" class="text-sm text-gray-300/75 underline underline-offset-4">&#8592; back</NuxtLink>
         <h3 class="font-mono text-xl">blog</h3>
         <div class="flex flex-col space-y-2">
             <h4 class="text-base font-medium underline underline-offset-4 decoration-1 decoration-gray-300/75 hover:decoration-white">
