@@ -4,7 +4,7 @@ const { initializeApp } = require('firebase/app')
 const {
     getFirestore, collection, onSnapshot,
     serverTimestamp, query,
-    addDoc, doc, orderBy, getDoc, getDocs, where
+    addDoc, doc, orderBy, getDoc, getDocs, where, limit
 } = require('firebase/firestore');
 
 const firebaseConfig = {
@@ -35,7 +35,7 @@ const getABlog = async (req, res) => {
             unsubscribe();
         }
 
-        unsubscribe(); 
+        unsubscribe();
     });
 }
 
@@ -58,6 +58,22 @@ const getAllBlogs = async (req, res) => {
         res.status(200).json(blogs)
         unsubscribe();
     })
+}
+
+const getLatestBlogs = async (req, res) => {
+    const queryRef = query(colRef, orderBy('createdAt', 'desc'), limit(3));
+
+    const unsubscribe = onSnapshot(queryRef, (querySnapshot) => {
+        const latestBlogs = [];
+
+        querySnapshot.forEach((doc) => {
+            latestBlogs.push({ id: doc.id, ...doc.data() });
+        });
+
+        res.status(200).json(latestBlogs);
+
+        unsubscribe();
+    });
 }
 
 const createBlog = async (req, res) => {
@@ -94,4 +110,4 @@ const createBlog = async (req, res) => {
         })
 }
 
-module.exports = { createBlog, getABlog, getAllBlogs }
+module.exports = { createBlog, getABlog, getAllBlogs, getLatestBlogs }
