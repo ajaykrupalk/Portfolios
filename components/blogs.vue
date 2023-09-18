@@ -17,8 +17,10 @@
     </div>
 </template>
 
-<script setup>
-const { data } = await useFetch('http://localhost:5000/latest');
+<script setup lang="js">
+const config = useRuntimeConfig();
+
+const { data } = await useFetch(`${config.public.BACKEND_URI}/latest`);
 
 function formatDate(ts) {
     const timestamp = ts * 1000;

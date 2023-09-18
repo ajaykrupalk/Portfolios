@@ -6,10 +6,12 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="js">
+const config = useRuntimeConfig();
+
 const { slug } = useRoute().params;
 
-const { data } = await useFetch(`http://localhost:5000/blog/${slug}`);
+const { data } = await useFetch(`${config.public.BACKEND_URI}/blog/${slug}`);
 
 </script>
 
