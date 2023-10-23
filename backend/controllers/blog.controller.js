@@ -1,4 +1,5 @@
 require('dotenv').config()
+const { getAuth, signInWithEmailAndPassword } = require("firebase/auth");
 
 const { initializeApp } = require('firebase/app')
 const {
@@ -21,6 +22,22 @@ initializeApp(firebaseConfig);
 const db = getFirestore()
 
 const colRef = collection(db, 'blogs')
+
+const auth = async (req, res) => {
+    const auth = getAuth();
+
+    const email = req.body.email
+    const password = req.body.password
+
+    signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            res.status(200).json({message: userCredential.user})
+        })
+        .catch((error) => {
+            res.status(401).json({message: error.message})
+        });
+
+}
 
 const getABlog = async (req, res) => {
     const checkForSlug = query(colRef, where('slug', '==', req.params.slug))
@@ -110,4 +127,4 @@ const createBlog = async (req, res) => {
         })
 }
 
-module.exports = { createBlog, getABlog, getAllBlogs, getLatestBlogs }
+module.exports = { createBlog, getABlog, getAllBlogs, getLatestBlogs, auth }
