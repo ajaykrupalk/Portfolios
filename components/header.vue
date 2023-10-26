@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between container">
       <div>
         <h1 class="text-lg font-bold">@ajaykrupalk</h1>
-        <div class="font-normal inline-block">
+        <div class="font-medium inline-block">
           developer
           <span class="inline-block align-middle">
             <img src="~/assets/images/loyalytics.png" title="loyalytics.ai" alt="loyalytics.ai" width="15" height="15">
