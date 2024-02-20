@@ -6,7 +6,7 @@
         <div class="font-medium inline-block">
           developer
           <span class="inline-block align-middle">
-            <a href="https://www.loyalytics.ai/">
+            <a href="https://www.loyalytics.ai/" target="_blank">
               <img src="~/assets/images/loyalytics.png" title="loyalytics.ai" alt="loyalytics.ai" width="15" height="15">
             </a>
           </span>
@@ -29,15 +29,16 @@
           </a>
         </span>
         <span>
-          <NuxtLink to="/">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              class="w-5 h-5 stroke-gray-500">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+          <a href="https://dev.to/ajaykrupalk" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-white" aria-label="dev.to" role="img" viewBox="0 0 512 512" fill="#000000">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%"></rect>
+              <path fill="#000000" d="M140.47 203.94h-17.44v104.47h17.45c10.155-.545 17.358-8.669 17.47-17.41v-69.65c-.696-10.364-7.796-17.272-17.48-17.41zm45.73 87.25c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H233.6v38.42h32.57v29.57H233.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z">
+              </path>
+              </g>
             </svg>
-          </NuxtLink>
+          </a>
         </span>
       </div>
     </div>
