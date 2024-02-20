@@ -6,7 +6,9 @@
         <div class="font-medium inline-block">
           developer
           <span class="inline-block align-middle">
-            <img src="~/assets/images/loyalytics.png" title="loyalytics.ai" alt="loyalytics.ai" width="15" height="15">
+            <a href="https://www.loyalytics.ai/">
+              <img src="~/assets/images/loyalytics.png" title="loyalytics.ai" alt="loyalytics.ai" width="15" height="15">
+            </a>
           </span>
         </div>
       </div>
