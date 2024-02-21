@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between container">
       <div>
         <h1 class="text-lg font-bold">@ajaykrupalk</h1>
-        <div class="font-medium inline-block">
+        <div class="font-normal font-mono inline-block">
           developer
           <span class="inline-block align-middle">
             <a href="https://www.loyalytics.ai/" target="_blank">
@@ -12,8 +12,8 @@
           </span>
         </div>
       </div>
-      <div class="inline-flex gap-3 items-center">
-        <span>
+      <div class="inline-flex gap-1 items-center">
+        <span class="p-0.5 rounded-md">
           <a href="https://github.com/ajaykrupalk" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0,0,256,256">
               <g fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -28,9 +28,9 @@
             </svg>
           </a>
         </span>
-        <span>
+        <span class="p-1 rounded-md">
           <a href="https://dev.to/ajaykrupalk" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-white" aria-label="dev.to" role="img" viewBox="0 0 512 512" fill="#000000">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" aria-label="dev.to" role="img" viewBox="0 0 512 512" fill="#000000">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
               <g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%"></rect>

@@ -5,7 +5,7 @@
         <div class="text-sm flex flex-col space-y-2" v-for="blog in data" :key="blog">
             <NuxtLink :to="`/blog/${blog.slug}`">
                 <h4
-                    class="text-base font-medium underline underline-offset-4 decoration-1 hover:text-gray-300/75">
+                    class="text-base font-medium font-mono underline underline-offset-4 decoration-1 hover:text-gray-300/75">
                     {{ blog.title }}
                 </h4>
             </NuxtLink>
