@@ -5,7 +5,7 @@
         </div>
         <div class="flex justify-between" v-for="blog in data" :key="blog">
             <NuxtLink :to="`/blog/${blog.slug}`">
-                <h4 class="text-base font-medium font-mono hover:text-gray-300/75">{{ blog.title }}</h4>
+                <h4 class="text-base font-medium underline underline-offset-4 decoration-1 font-mono hover:text-gray-300/75">{{ blog.title }}</h4>
             </NuxtLink>
             <p class="text-sm text-gray-300/75">{{ formatDate(blog.createdAt.seconds) }}</p>
         </div>
