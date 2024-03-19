@@ -16,9 +16,9 @@
             </a>
         </div>
         <div>
-            <a href="https://aisummarize.vercel.app/" class="space-y-0.5" target="_blank">
-                <h4 class="text-base font-medium underline underline-offset-4 decoration-1 font-mono">summarize/ai</h4>
-                <p class="text-sm text-gray-300/75">summarize a book using ai.</p>
+            <a href="https://image-gen-sdxl.vercel.app/" class="space-y-0.5" target="_blank">
+                <h4 class="text-base font-medium underline underline-offset-4 decoration-1 font-mono">image-gen/ai</h4>
+                <p class="text-sm text-gray-300/75">generate your ideas visually</p>
             </a>
         </div>
     </div>
