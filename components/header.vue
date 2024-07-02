@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="inline-flex gap-1 items-center">
-        <span class="p-0.5 rounded-md">
+        <span class="p-0.5 rounded-full hover:bg-white">
           <a href="https://github.com/ajaykrupalk" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0,0,256,256">
               <g fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt"
