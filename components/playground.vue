@@ -10,6 +10,12 @@
             </a>
         </div>
         <div>
+            <a href="https://langground.vercel.app/" class="space-y-0.5" target="_blank">
+                <h4 class="text-base font-medium underline underline-offset-4 decoration-1 font-mono">langground/ai</h4>
+                <p class="text-sm text-gray-300/75">multi-model playground for langchain</p>
+            </a>
+        </div>
+        <div>
             <a href="https://aitranscribe.vercel.app/" class="space-y-0.5" target="_blank">
                 <h4 class="text-base font-medium underline underline-offset-4 decoration-1 font-mono">transcribe/ai</h4>
                 <p class="text-sm text-gray-300/75">ai powered transcription of audio to text.</p>
