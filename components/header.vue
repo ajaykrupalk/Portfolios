@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="inline-flex gap-1 items-center">
-        <span class="p-0.5 rounded-md hover:bg-slate-800/50">
+        <span class="p-0.5 rounded-md hover:bg-slate-700/50">
           <a href="https://github.com/ajaykrupalk" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0,0,256,256">
               <g fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -30,7 +30,7 @@
             </svg>
           </a>
         </span>
-        <span class="p-0.5 rounded-md hover:bg-slate-800/50">
+        <span class="p-0.5 rounded-md hover:bg-slate-700/50">
           <a href="https://www.linkedin.com/in/ajaykrupalk" target="_blank">
             <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="18px"
               height="18px">
@@ -39,7 +39,7 @@
             </svg>
           </a>
         </span>
-        <span class="p-1 rounded-md hover:bg-slate-800/50">
+        <span class="p-1 rounded-md hover:bg-slate-700/50">
           <a href="https://dev.to/ajaykrupalk" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" aria-label="dev.to" role="img"
               viewBox="0 0 512 512" fill="#000000">
