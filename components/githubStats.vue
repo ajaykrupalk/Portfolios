@@ -1,6 +1,6 @@
 <template>
     <span
-        class="text-[10px] font-mono ml-2 bg-[#343a40] font-bold rounded-full px-1.5 py-0.5 text-white inline-flex items-center">
+        class="text-[10px] font-mono ml-2 bg-[#212529] font-bold rounded-full px-1.5 py-0.5 text-white inline-flex items-center">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="14" height="14" viewBox="0,0,256,256"
             class="fill-white">
             <g fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
