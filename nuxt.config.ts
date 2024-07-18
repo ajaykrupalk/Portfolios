@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
     public: {
-      BACKEND_URI: process.env.BACKEND_PORT
+      BACKEND_URI: process.env.BACKEND_PORT,
+      GITHUB_TOKEN: process.env.GITHUB_TOKEN
     }
   },
   app:{
