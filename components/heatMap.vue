@@ -67,7 +67,7 @@ onMounted(async () => {
                 color: {
                     type: 'linear',
                     range: ['#343a40', '#e9ecef'],
-                    domain: [0, 15],
+                    domain: [0, 10],
                 },
             },
         },
