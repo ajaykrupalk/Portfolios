@@ -22,6 +22,10 @@ p {
   line-height: 1.55rem;
 }
 
+p > a:hover{
+  opacity: 0.75;
+}
+
 a{
   cursor: pointer;
   font-weight: 400;
@@ -36,7 +40,7 @@ a > p {
   font-weight: 400;
 }
 
-a:hover {
+a > p:hover {
   opacity: 0.75;
 }
 
