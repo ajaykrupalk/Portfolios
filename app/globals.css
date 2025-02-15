@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: "inter black";
+  src: url("./inter.woff2") format("woff2");
+}
+
+* {
+  font-family: "inter black", sans-serif;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.55rem;
+}
+
+a {
+  font-size: 0.875rem;
+}
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+
+body {
+  color:#1b1b18;
+  background: var(--background);
+}
