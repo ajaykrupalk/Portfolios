@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #fdfdfc;
   --foreground: #171717;
 }
 
@@ -20,6 +20,15 @@ p {
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.55rem;
+}
+
+a{
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: #d1d5db;
 }
 
 a > p {
