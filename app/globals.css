@@ -22,8 +22,13 @@ p {
   line-height: 1.55rem;
 }
 
-a {
+a > p {
   font-size: 0.875rem;
+  font-weight: 400;
+}
+
+a:hover {
+  opacity: 0.75;
 }
 
 h3 {
