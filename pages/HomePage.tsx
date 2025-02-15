@@ -1,6 +1,6 @@
 import React from "react";
 
-export const HomePage = () => {
+export default function HomePage() {
     return (
         <div className="flex flex-row justify-center py-20 bg-white dark:bg-zinc-900">
             <div className="flex flex-col w-[500px] justify-between gap-y-10  items-start pb-10">
