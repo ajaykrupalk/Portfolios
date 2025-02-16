@@ -54,3 +54,8 @@ body {
   color:#1b1b18;
   background: var(--background);
 }
+
+/* Make scrollbar thin */
+::-webkit-scrollbar {
+ display: none !important;
+}

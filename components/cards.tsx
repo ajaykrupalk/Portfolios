@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 export default function Cards() {
     return (
         <>
-            <div className="w-full z-50">
+            <div className="w-full">
                 <div className="relative w-full h-52">
                     {/* Left div */}
                     <a href="https://langground.vercel.app/" target="__blank">
