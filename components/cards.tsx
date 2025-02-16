@@ -1,7 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { motion } from "motion/react";
 
 export default function Cards() {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setIsLoading(false);
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className="w-full">
+                <div className="relative w-full h-52">
+                    {/* Left placeholder */}
+                    <div className="absolute left-[100px] top-1/6 -translate-x-1/2 translate-y-[10%] -rotate-15 z-10">
+                        <div className="bg-gray-100 animate-pulse rounded-md w-[150px] h-[150px] border" />
+                    </div>
+
+                    {/* Center placeholder */}
+                    <div className="absolute left-[100px] z-20">
+                        <div className="bg-gray-100 animate-pulse rounded-md w-[150px] h-[150px] border" />
+                    </div>
+
+                    {/* Right placeholder */}
+                    <div className="absolute left-[100px] translate-x-1/2 translate-y-[10%] rotate-15 z-10">
+                        <div className="bg-gray-100 animate-pulse rounded-md w-[150px] h-[150px] border" />
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <>
             <div className="w-full">
