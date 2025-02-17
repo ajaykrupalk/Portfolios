@@ -9,9 +9,9 @@ export default function Header() {
                 {"Currently, I work as a software developer at"}
                 {"  "}
                 <a href="https://www.loyalytics.ai/" target="__blank">Loyalytics</a> 
-                {" where I build features for the product "}
+                {" where I build features for "}
                 <a href="https://www.swan.cx/" target="__blank">Swan</a>  
-                {" which powers the largest retailers across the Middle East and Indonesia."}
+                {" the product which powers the largest retailers across the Middle East and Indonesia."}
             </p>
             <p>I love working at the intersection of development and AI.</p>
         </>

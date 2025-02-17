@@ -17,7 +17,7 @@ export default function Experience() {
                         <h3>Brillio</h3>
                         <p className="opacity-50 text-xs font-medium">2022 - 2023</p>
                     </div>
-                    <p className="opacity-75 font-light">Earned AWS Certified Cloud Practitioner certification and gained hands on experience in Azure.</p>
+                    <p className="opacity-75 font-light">Earned the AWS Certified Cloud Practitioner certificaton and gained hands on experience in Azure.</p>
                 </div>
                 <div className="flex flex-col w-full">
                     <div className="flex flex-row gap-x-1 items-baseline">
