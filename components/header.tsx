@@ -4,9 +4,9 @@ export default function Header() {
     return (
         <>
             <h1 className="font-bold text-xl">Ajay Krupal K</h1>
-            <p>I am a software developer based in Bangalore, India.</p>
+            <p>I am a Senior Software Developer based in Bangalore, India.</p>
             <p>
-                {"Currently, I work as a software developer at"}
+                {"Currently, I work as a Senior Software Developer at"}
                 {"  "}
                 <a href="https://www.loyalytics.ai/" target="__blank">Loyalytics</a> 
                 {" where I build features for "}
