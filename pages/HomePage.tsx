@@ -4,7 +4,6 @@ import React from "react";
 import Header from "../components/header";
 import Experience from "../components/experience";
 import Footer from "../components/footer";
-import Cards from "../components/cards";
 
 export default function HomePage() {
     return (
