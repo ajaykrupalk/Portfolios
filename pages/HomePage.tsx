@@ -18,7 +18,6 @@ export default function HomePage() {
                       }}                      
                 />
                 <Header />
-                <Cards />
                 <Experience />
                 <Footer />
             </div>

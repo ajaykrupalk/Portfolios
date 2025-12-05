@@ -10,7 +10,7 @@ export default function Experience() {
                         <h3>Loyalytics</h3>
                         <p className="opacity-50 text-xs font-medium">2023 - now</p>
                     </div>
-                    <p className="opacity-75 font-light">Building features for the AI driven omnichannel customer engagement platform - Swan.</p>
+                    <p className="opacity-75 font-light">Leading a team and building features for the AI driven omnichannel customer engagement platform - Swan.</p>
                 </div>
                 <div className="flex flex-col w-full">
                     <div className="flex flex-row gap-x-1 items-baseline">
