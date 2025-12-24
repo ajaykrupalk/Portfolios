@@ -12,9 +12,6 @@
   src: url("./inter.woff2") format("woff2");
 }
 
-*{
-  cursor: none !important;
-}
 
 * {
   font-family: "inter black", sans-serif;

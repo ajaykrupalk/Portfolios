@@ -4,7 +4,6 @@ import React from "react";
 import Header from "../components/header";
 import Experience from "../components/experience";
 import Footer from "../components/footer";
-import CustomCursor from "../components/customCursor";
 
 export default function HomePage() {
     return (
@@ -17,7 +16,6 @@ export default function HomePage() {
                         WebkitMaskImage: "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)"
                       }}                      
                 />
-                <CustomCursor />
                 <Header />
                 <Experience />
                 <Footer />

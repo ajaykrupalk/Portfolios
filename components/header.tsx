@@ -1,20 +1,10 @@
-import Image from "next/image";
 import React from "react";
-import PostcardImage from "../public/assets/postcard-stamp.png";
 
 export default function Header() {
   return (
     <>
-      <div className="flex w-full justify-between items-start">
-        <div>
-            <h1 className="font-bold text-xl">Ajay Krupal K</h1>
-            <p className="mt-2 w-48 text-xs opacity-75">Turning ideas into reality through code</p>
-        </div>
-        <Image
-          src={PostcardImage}
-          alt="Bangalore"
-          className="w-32 h-20 transform rotate-6"
-        />
+      <div>
+        <h1 className="font-bold text-xl">Ajay Krupal K</h1>
       </div>
       <p>I am a Senior Software Developer based in Bangalore, India.</p>
       <p>
