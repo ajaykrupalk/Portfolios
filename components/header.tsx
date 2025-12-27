@@ -18,7 +18,7 @@ export default function Header() {
           Swan
         </a>
         {
-          " the product which powers the largest retailers across the Middle East and Indonesia."
+          ", the product which powers the largest retailers across the Middle East and Indonesia."
         }
       </p>
       <p>I love working at the intersection of development and AI.</p>

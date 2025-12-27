@@ -24,7 +24,7 @@ export default function Experience() {
                         <h3>IIMBx</h3>
                         <p className="opacity-50 text-xs font-medium">2021 - 2022</p>
                     </div>
-                    <p className="opacity-75 font-light">Maintained the official website and led research on the applications and implementation of AWS Workspaces and AWS managed blockchain.</p>
+                    <p className="opacity-75 font-light">Maintained the official website and led research and implementation of AWS Workspaces and AWS managed blockchain.</p>
                 </div>
             </div>
         </>
